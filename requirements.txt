@@ -1,0 +1,13 @@
+pandas
+numpy
+scikit-learn
+interpret
+xgboost
+matplotlib
+joblib
+ipywidgets
+langchain
+langchain-openai
+python-dotenv
+pydantic
+jupyter
