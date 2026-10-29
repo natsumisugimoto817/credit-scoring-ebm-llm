@@ -202,7 +202,3 @@ kaggle datasets download -d wordsforthewise/lending-club -p data/raw/
 
 1. Unzip the data into `data/raw/`, then run `src/01_credit_scoring_ebm.ipynb`. It saves `model/credit_models.joblib` and `model/modeling_data.pkl`, which Part 2 uses.
 2. For Part 2, put your OpenAI API key in a `.env` file at the top of the repository (`OPENAI_API_KEY=...`), then run `src/02_agent_credit_review.ipynb`.
-
-## Background
-
-At KPMG Japan, I built a fraud risk model for financial statements using EBM. It is used by over 1,000 auditors, who needed to understand why a company got a high risk score. This project applies the same idea to retail credit with public data.
